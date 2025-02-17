@@ -13,6 +13,8 @@ body {
 }
 
 .header_title {
+    position: sticky;
+    top: 0;
     justify-content: center;
     /* background: #008080; */
     text-decoration: underline 4px;
@@ -36,10 +38,12 @@ body {
     padding: 20px;
 }
 
-.objetivos img{
+.objetivos img {
+    border-radius: 10px;
     float:left;
-    zoom: 60%;
-    margin-left: 3rem;
+    width: 60%;
+    height: 60%;
+    margin: 0.5em;
 }
 
 .sidebar {
